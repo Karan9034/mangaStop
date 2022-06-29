@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ca7;
+}
+.card-img-overlay{
+    display: none;
+}
+.navbar-brand{
+    font-weight: 600;
+}
