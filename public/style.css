@@ -6,8 +6,26 @@
 body{
     background-color: #ca7;
 }
+.card{
+    height: 100%;
+}
+.card img{
+    height: 100%;
+}
 .card-img-overlay{
-    display: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10;
+    opacity: 0;
+    transition: .3s ease;
+}
+.card-img-overlay:hover{
+    opacity: 1;
 }
 .navbar-brand{
     font-weight: 600;

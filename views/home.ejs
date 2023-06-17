@@ -7,62 +7,62 @@
             <div class="row my-4">
                 <% if(mangasData[i]) { %>
                     <div class="col-6 col-md-2">
-                        <div class="card bg-dark text-white">
+                        <a href="/manga/<%= mangasData[i].id %>" class="card bg-dark text-white">
                             <img src="<%= mangasData[i].coverLink %>" class="card-img" alt="">
                             <div class="card-img-overlay">
                                 <h5 class="card-title"><%= mangasData[i].title %></h5>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 <% } %>
                 <% if(mangasData[i+1]) { %>
                     <div class="col-6 col-md-2">
-                        <div class="card bg-dark text-white">
+                        <a href="/manga/<%= mangasData[i+1].id %>" class="card bg-dark text-white">
                             <img src="<%= mangasData[i+1].coverLink %>" class="card-img" alt="">
                             <div class="card-img-overlay">
                                 <h5 class="card-title"><%= mangasData[i+1].title %></h5>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 <% } %>
                 <% if(mangasData[i+2]) { %>
                     <div class="col-6 col-md-2">
-                        <div class="card bg-dark text-white">
+                        <a href="/manga/<%= mangasData[i+2].id %>" class="card bg-dark text-white">
                             <img src="<%= mangasData[i+2].coverLink %>" class="card-img" alt="">
                             <div class="card-img-overlay">
                                 <h5 class="card-title"><%= mangasData[i+2].title %></h5>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 <% } %>
                 <% if(mangasData[i+3]) { %>
                     <div class="col-6 col-md-2">
-                        <div class="card bg-dark text-white">
+                        <a href="/manga/<%= mangasData[i+3].id %>" class="card bg-dark text-white">
                             <img src="<%= mangasData[i+3].coverLink %>" class="card-img" alt="">
                             <div class="card-img-overlay">
                                 <h5 class="card-title"><%= mangasData[i+3].title %></h5>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 <% } %>
                 <% if(mangasData[i+4]) { %>
                     <div class="col-6 col-md-2">
-                        <div class="card bg-dark text-white">
+                        <a href="/manga/<%= mangasData[i+4].id %>" class="card bg-dark text-white">
                             <img src="<%= mangasData[i+4].coverLink %>" class="card-img" alt="">
                             <div class="card-img-overlay">
                                 <h5 class="card-title"><%= mangasData[i+4].title %></h5>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 <% } %>
                 <% if(mangasData[i+5]) { %>
                     <div class="col-6 col-md-2">
-                        <div class="card bg-dark text-white">
+                        <a href="/manga/<%= mangasData[i+5].id %>" class="card bg-dark text-white">
                             <img src="<%= mangasData[i+5].coverLink %>" class="card-img" alt="">
                             <div class="card-img-overlay">
                                 <h5 class="card-title"><%= mangasData[i+5].title %></h5>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 <% } %>
             </div>
